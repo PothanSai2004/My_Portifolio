@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Portifolio Pothan Sai. T</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/3484637c84.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <img src="pics/logo1.png" class="logo">
+                <ul id="sidemenu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#portifolio">Portifolio</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <i class="fas fa-times" onclick="closemenu()"></i>
+                </ul>
+                <i class="fas fa-bars" onclick="openmenu()"></i>
+            </nav>
+            <div class="header-text">
+                <p>Web Designier & Developer</p>
+                <h1>Hi, I'm <span>Pothan</span> Sai <br>from India</h1>
+            </div>
+        </div>
+    </div>
+    <!-- about -->
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="pics/bg2.png">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="subtitle">About Me</h1>
+                    <p>Hello! I'm Pothan Sai, a passionate and skilled software developer and designer with expertise in creating innovative and user-friendly digital solutions. 
+                        With a strong background in both development and design, I bring a unique blend of technical proficiency and creative flair to my projects. 
+                        In the software development industry, working on a wide range of projects for diverse clients. 
+                        My expertise lies in developing robust and scalable applications, crafting intuitive user interfaces, and implementing efficient backend systems.</p>
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                        <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                        <p class="tab-links" onclick="opentab('education')">Education</p>
+                    </div>
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li><span>Web Designier & Developer</span><br>Web app Development</li>
+                            <li><span>Mysql</span><br>Database Management</li>
+                            <li><span>UI/UX</span><br>Design Web/App interfaces</li>
+                            <li><span>Selenium</span><br>Testing and Debugging</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="experience">
+                        <ul>
+                            <li><span>2023 - Current</span><br>Internship at Techciti Technologies</li>
+                            <li><span>2023 - Current</span><br>Internship at Info aidTech</li>
+                            <li><span>2023 (September)</span><br>Virtual internship at CodSoft</li>
+                            <li><span>2021 - 2023</span><br>Active Volunteer in National Service Scheme(NSS)</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="education">
+                        <ul>
+                            <li><span>2021 - 2026 (current)</span><br>Integrated Mtech at Vellore Institute of Technologies</li>
+                            <li><span>2020</span><br>Scenior Secondary Schooling with the overall score of 95.5%</li>
+                            <li><span>2018</span><br>Higher Secondary Schooling with GPA of 10.0/10.0 points</li>
+                        </ul>
+                    </div> 
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- --------------Services------------- -->
+    <div id="services">
+        <div class="container">
+            <h1 class="sub-title">My Services</h1>
+            <div class="services-list">
+                <div>
+                    <i class="fa-solid fa-code"></i>
+                    <h2>Web Design</h2>
+                    <p>I use HTML, CSS and JavaScript, as well as visual design software for website. We design and develop websites that not only look great but also perform exceptionally.</p>
+                    <a href="#">Learn more</a>
+                </div>
+                <div>
+                    <i class="fa-solid fa-crop"></i>
+                    <h2>UI/UX Design</h2>
+                    <p>As a UI/UX designer, I possess a unique set of skills that are crucial in creating exceptional user experiences and visually appealing interfaces.</p>
+                    <a href="#">Learn more</a>
+                </div>
+                <div>
+                    <i class="fa-brands fa-app-store"></i>
+                    <h2>Testing</h2>
+                    <p>As a Tester, I ensures quality by testing that the functionality of a given web application is working as intended or as per the requirements. I use this Web application testing to find bugs at any given time, prior to a release, or on a day-to-day basis.</p>
+                    <a href="#">Learn more</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- ---------Portifolio------------ -->
+
+    <div id="portifolio">
+        <div class="container">
+            <h1 class="sub-title">My Work</h1>
+            <div class="work-list">
+                <div class="work">
+                    <img src="pics/work-1.png" alt="">
+                    <div class="layer">
+                        <h3>Company Website</h3>
+                        <p>A detailed description of the products and services offered by Sri Revathi Enterprises is provided on their corporate website, which also allows consumers to leave feedback and send notes. This website offers a reasonable platform for the business and the customers to keep a positive interaction.
+                        </p>
+                        <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="pics/work-2.png" alt="">
+                    <div class="layer">
+                        <h3>Landing Page</h3>
+                        <p>Using simple html, css, and javascript to make it much more stunning and thorough, this internet page includes information on the drones, the many varieties of drones, and their costs for them.
+                        </p>
+                        <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="pics/work-3.png" alt="">
+                    <div class="layer">
+                        <h3>Online Shoping Mart App</h3>
+                        <p>This online shoping mart is a simple online provisional store, that enhances consumers for their online shoping for their dialy necessaries</p>
+                        <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
+                    </div>
+                </div>
+            </div>
+            <a href="https://github.com/PothanSai2004" class="btn">See more</a>
+        </div>
+    </div>
+
+    <!-- --------contact----------- -->
+
+    <div id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="sub-title">Contact Me</h1>
+                    <p><i class="fas fa-paper-plane"></i>pothansai5@gmail.com</p>
+                    <p><i class="fas fa-phone-square-alt"></i>8712127546</p>
+                    <div class="social-icons">
+                        <a href="https://www.facebook.com/pothansai.thummala/"><i class="fab fa-facebook"></i></a>
+                        <a href="https://github.com/PothanSai2004"><i class="fa-brands fa-github-alt"></i></a>
+                        <a href="https://www.instagram.com/pothan_sai_o4/"><i class="fab fa-instagram"></i></a>
+                        <a href="https://www.linkedin.com/in/pothansai0408/"><i class="fab fa-linkedin"></i></a>
+                    </div>
+                    <a href="pics/Pothan_Resume.pdf" class="btn btn2" download="Pothan_resume.pdf">Download CV</a>
+                </div>
+                <div class="contact-right">
+                    <form name="submit-to-google-sheet">
+                        <input type="text" name="Name" placeholder="Your Name" required>
+                        <input type="email" name="Email" placeholder="Your Email" required>
+                        <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                        <button type="submit" class="btn btn2">Send</button>
+                    </form>
+                    <span id="msg"></span>
+                </div>
+            </div>
+        </div>
+        <div class="copyright">
+            <p>Copyright preserved to <img src="pics/logo1.png" class="foot">.<br><br> Made with <i class="fas fa-heart"></i> by T.P.S</p>
+        </div>
+    </div>
+    <script>
+        var tablinks = document.getElementsByClassName("tab-links");
+        var tabcontents = document.getElementsByClassName("tab-contents");
+        function opentab(tabname){
+            for(tablink of tablinks){
+                tablink.classList.remove("active-link")
+            }
+            for(tabcontent of tabcontents){
+                tabcontent.classList.remove("active-tab")
+            }
+            event.currentTarget.classList.add("active-link");
+            document.getElementById(tabname).classList.add("active-tab");
+        }
+    </script>
+
+    <script>
+        var sidemenu = document.getElementById("sidemenu");
+        function openmenu(){
+            sidemenu.style.right = "0";
+        }
+        function closemenu(){
+            sidemenu.style.right = "-200px";
+        }
+    </script>
+
+<script>
+    const scriptURL = 'https://script.google.com/macros/s/AKfycbysKNw6zBnsoL1s9xTExzPea8KjlVfLqtTMDcSRQEe1PAUNFYE-KdfF37Tb67Fr8Nqr/exec'
+    const form = document.forms['submit-to-google-sheet']
+    const msg = document.getElementById("msg")
+  
+    form.addEventListener('submit', e => {
+      e.preventDefault()
+      fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+        .then(response => {
+            msg.innerHTML = "Message sent Successfully"
+            setTimeout(function(){
+                msg.innerHTML = ""
+            },5000)
+            form.reset()
+        })
+        .catch(error => console.error('Error!', error.message))
+    })
+  </script>
+</body>
+</html>
